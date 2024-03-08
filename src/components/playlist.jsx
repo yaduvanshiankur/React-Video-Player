@@ -32,7 +32,7 @@ function Playlist() {
             <img
               src={video.thumb}
               alt={video.title}
-              className="object-cover rounded-lg w-64"
+              className="object-cover rounded-lg w-72 h-44"
             />
             <div className="flex flex-col">
               <h3 className="text-lg sm:text-xl font-medium">{video.title}</h3>
